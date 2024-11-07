@@ -1,0 +1,74 @@
+/* Center and layout the app */
+#root {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+/* Quote box styling */
+#quote-box {
+  max-width: 400px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+#quote-box:hover {
+  transform: scale(1.02);
+}
+
+/* Quote text and author styling */
+#text {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-size: 1em;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 0.9em;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Tweet link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
